@@ -5,10 +5,10 @@ $(document).ready(function() {
   $('#userRepos').click(function() {
     var GitHubUser = $('#repos').val();
     var newRepo = new Repo ();
+    newRepo.getUserInfo(GitHubUser);
     newRepo.getRepos(GitHubUser);
     $('#repos').val("");
-    $('.showRepos').text("Repositories for " + GitHubUser + ":");
-
+    $('.showUser').text("Repositories for " + GitHubUser + ":");
   });
 
 });
