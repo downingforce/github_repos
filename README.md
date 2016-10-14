@@ -4,10 +4,9 @@
 
 ## Description
 
-_A java web application demonstrating a field wildlife-tracker built using Spark and Velocity_
+_A web application written in javascript (utilizing Gulp and Bower libs) that takes in a GitHub username and returns a list of their repositories_
 
 ## Setup/Installation Requirements
-
 
 * Node.js, Gulp, and Bower installation required as well as the following dependencies:
 "bower-files": "^3.14.1",
