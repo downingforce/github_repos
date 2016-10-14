@@ -22,7 +22,7 @@ _A web application written in javascript (utilizing Gulp and Bower libs) that ta
 "gulp-util": "^3.0.7",
 "jshint": "^2.9.3",
 "vinyl-source-stream": "^1.1.0"
-* Copy the repository from GitHub: https://github.com/downingforce/github
+* Copy the repository from GitHub: https://github.com/downingforce/github_repos
 * Gulp and Bower build can be executed after cloning using the following commands:
 - $npm install
 - $bower install
