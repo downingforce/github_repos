@@ -9,26 +9,26 @@ _A web application written in javascript (utilizing Gulp and Bower libs) that ta
 ## Setup/Installation Requirements
 
 * Node.js, Gulp, and Bower installation required as well as the following dependencies:
-"bower-files": "^3.14.1",
-"browser-sync": "^2.17.3",
-"browserify": "^13.1.0",
-"del": "^2.2.2",
-"gulp": "^3.9.1",
-"gulp-concat": "^2.6.0",
-"gulp-jshint": "^2.0.1",
-"gulp-sass": "^2.3.2",
-"gulp-sourcemaps": "^2.1.1",
-"gulp-uglify": "^2.0.0",
-"gulp-util": "^3.0.7",
-"jshint": "^2.9.3",
-"vinyl-source-stream": "^1.1.0"
+_"bower-files": "^3.14.1",_
+_"browser-sync": "^2.17.3",_
+_"browserify": "^13.1.0",_
+_"del": "^2.2.2",_
+_"gulp": "^3.9.1",_
+_"gulp-concat": "^2.6.0",_
+_"gulp-jshint": "^2.0.1",_
+_"gulp-sass": "^2.3.2",_
+_"gulp-sourcemaps": "^2.1.1",_
+_"gulp-uglify": "^2.0.0",_
+_"gulp-util": "^3.0.7",_
+_"jshint": "^2.9.3",_
+_"vinyl-source-stream": "^1.1.0"_
 * Copy the repository from GitHub: https://github.com/downingforce/github_repos
 * Gulp and Bower build can be executed after cloning using the following commands:
-- $npm install
-- $bower install
+_$npm install_
+_$bower install_
 * Run program in a command line terminal application using:
-$gulp build
-$gulp serve
+_$gulp build_
+_$gulp serve_
 
 ## Specifications
 
@@ -36,7 +36,7 @@ $gulp serve
 | --------------------------------------| --------------------------- | -------------------------------------- |
 | Take user input (github username)     | "downingforce"              | "Repositories for " + GitHubUser + ":" |
 | Validates username                    | "23423vvfhw56jdfg77"        | "There is no user matching that name"  |
-| Displays github user repos            | "downingforce"              | "<li>'address_book'</li>"              |
+| Displays github user repos            | "downingforce"              | "address_book"......etc.               |
 
 
 ## Technologies Used
