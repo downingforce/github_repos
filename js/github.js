@@ -6,9 +6,8 @@ function Repo () {
 
 Repo.prototype.getUserInfo = function(user) {
   $.get('https://api.github.com/users/' + user + '?access_token' + apiKey).then(function(response) {
-    console.log(response);
   }).fail(function(error) {
-    $('.showUser').text(error.responseJSON.message);
+    $('.showUser').text("There is no user matching that name");
   });
 };
 

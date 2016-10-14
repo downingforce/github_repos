@@ -3,6 +3,8 @@ var Repo = require('./../js/github.js').repoModule;
 $(document).ready(function() {
 
   $('#userRepos').click(function() {
+    $('.showUser').empty();
+    $('.showRepos').empty();
     var GitHubUser = $('#repos').val();
     var newRepo = new Repo ();
     newRepo.getUserInfo(GitHubUser);
