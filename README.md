@@ -8,25 +8,13 @@ _A web application written in javascript (utilizing Gulp and Bower libs) that ta
 
 ## Setup/Installation Requirements
 
-Node.js, Gulp, and Bower installation required as well as the following dependencies:
-* _"bower-files": "^3.14.1",_
-* _"browser-sync": "^2.17.3",_
-* _"browserify": "^13.1.0",_
-* _"del": "^2.2.2",_
-* _"gulp": "^3.9.1",_
-* _"gulp-concat": "^2.6.0",_
-* _"gulp-jshint": "^2.0.1",_
-* _"gulp-sass": "^2.3.2",_
-* _"gulp-sourcemaps": "^2.1.1",_
-* _"gulp-uglify": "^2.0.0",_
-* _"gulp-util": "^3.0.7",_
-* _"jshint": "^2.9.3",_
-* _"vinyl-source-stream": "^1.1.0"_
+Node.js, Gulp, and Bower installation required.
 Copy the repository from GitHub: https://github.com/downingforce/github_repos
 Gulp and Bower build can be executed after cloning using the following commands:
-* _$npm install_
-* _$bower install_
-Run program in a command line terminal application using:
+* _$ npm install_
+* _$ bower install_
+* _$ touch .env_
+Run program in a command line terminal application from the top level directory using:
 * _$gulp build_
 * _$gulp serve_
 
