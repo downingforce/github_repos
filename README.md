@@ -18,6 +18,10 @@ Gulp and Bower build can be executed after cloning using the following commands:
 * _$ bower install_
 * _$ touch .env_
 
+To make more than 60 calls per day to the GitHub API you must aquire a Person Access Token to include in the .env file:
+
+https://github.com/blog/1509-personal-api-tokens
+
 Run program in a command line terminal application from the top level directory using:
 * _$gulp build_
 * _$gulp serve_
