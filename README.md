@@ -11,9 +11,11 @@ _A web application written in javascript (utilizing Gulp and Bower libs) that ta
 Node.js, Gulp, and Bower installation required.
 Copy the repository from GitHub: https://github.com/downingforce/github_repos
 Gulp and Bower build can be executed after cloning using the following commands:
+
 * _$ npm install_
 * _$ bower install_
 * _$ touch .env_
+
 Run program in a command line terminal application from the top level directory using:
 * _$gulp build_
 * _$gulp serve_
